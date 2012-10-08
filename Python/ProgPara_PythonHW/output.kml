@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Placemark>
+	 
+	<name>North Charleston</name>
+	<description>Current weather:
+Clear
+High: 80F
+Low: 60F
+</description>
+	<Point>
+		<coordinates>-80.101311,32.927448,0</coordinates>
+	</Point>
+</Placemark>

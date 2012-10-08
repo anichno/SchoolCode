@@ -1,0 +1,62 @@
+Fields:
+    X
+    Y
+    Height
+    Width
+    OUT_BOTTOM
+    OUT_LEFT
+    OUT_TOP
+    OUT_RIGHT
+
+Methods:
+	add
+	contains
+	createIntersection
+	createUnion
+	equals
+	getBounds
+	getBounds2D
+	getHeight
+	getLocation
+	getSize
+	getWidth
+	getX
+	getY
+	grow
+	inside
+	intersection
+	intersects
+	isEmpty
+	move
+	outcode
+	reshape
+	resize
+	setBounds
+	setLocation
+	setRect
+	setSize
+	toString
+	translate
+	union
+	
+	getPathIterator
+	hashCode
+	intersectsLine
+	setFrame
+	setRect
+	
+	clone
+	getCenterX
+	getCenterY
+	getMaxX
+	getMaxY
+	getMinX
+	getMinY
+	setFrameFromCenter
+	setFrameFromDiagonal
+	
+	finalize
+	getClass
+	notify
+	notifyAll
+	wait

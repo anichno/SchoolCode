@@ -1,0 +1,17 @@
+What is the advantage of writing GUI (graphics user interface) programs as objects?
+    Each component has its own state and methods
+
+What happens in a GUI program if you do not add any "listeners" to any of your GUI components?
+    The components have no functions
+
+What is an "inner class"?
+    A class (or object) inside a class (or object)... inclassion...
+
+What variables can be accessed and changed by methods in an "inner class"?
+    All
+
+What methods can be called from an "inner class" method?
+    All
+
+What Java interface defines the listeners for a button click? a mouse click? a mouse movement? a keyboard key click?
+    MouseListener, KeyListener

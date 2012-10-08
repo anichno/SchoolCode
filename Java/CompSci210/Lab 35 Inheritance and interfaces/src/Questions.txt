@@ -1,0 +1,31 @@
+If a class implements the MouseListener interface, how many methods does it need to implement in its definition?
+-5
+
+If you needed to do some action everytime a mouse button was clicked, which method would you place your code in?
+-mouseClicked
+
+How many classes in the Java API implement the Shape interface?
+-8
+
+If a class implements the Shape interface, how many methods does it need to implement in its definition?
+-10
+
+Can you create a new instance of the Shape interface? That is, could you write code like new Shape()? Why or why not?
+-no, it must be attached to an object
+
+Can you use Shape as a data type? For example, could you do this:
+
+Shape s1 = new Arc2D();
+Shape s2 = new Rectangle();
+Shape s3 = new CubicCurve2D();
+
+-no, it must be part of an object
+
+How many classes in the Java API implement the List interface?
+-10
+
+If a class implements the List interface, how many methods does it need to implement in its definition?
+-25
+
+Why can you treat all classes that implement the List interface in the same way?
+-they have the same methods

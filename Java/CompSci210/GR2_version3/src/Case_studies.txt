@@ -1,0 +1,22 @@
+/**
+ * GR 2: Case Studies          Limit your time to approximately 7 minutes
+ *
+ * Grade: _____ / 10
+ *
+ */
+
+1. (3 pts) Which is better code? (A or B)? A
+Why?    Single return, length of loop is predicable so "for" loop is more 
+        appropriate.
+
+
+
+2. (3 pts) Which is better code? (A or B)? B
+Why? Single return, boolean zen.
+
+
+
+
+3. (3 pts) Which is better code? (A or B)? A
+Why?    Variables are hidden from client, instead of public access to variables 
+        class provides getter methods (accessors).

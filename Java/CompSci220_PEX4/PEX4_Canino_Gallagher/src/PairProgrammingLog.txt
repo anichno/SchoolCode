@@ -1,0 +1,11 @@
+Pair Programming Log File
+==== =========== === ====
+
+Driver                 Navigator               Duration
+====================   ====================    ========
+
+
+
+Total Driving Time
+Cadet 1: 
+Cadet 2: 

@@ -1,0 +1,7 @@
+Inheritance depth: 6
+State variables: 24
+Inherited state variables: 3
+Inherited state constants: 37
+updateUI adds functionality
+AbstractButton
+yes, it is public

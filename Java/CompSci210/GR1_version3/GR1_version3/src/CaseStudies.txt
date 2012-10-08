@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------
+// GR 1: Case Study 1          Limit your time to approximately 4 minutes
+
+// Grade: _____ / 5
+
+a) What major principle of code implementation does the code on the left use,
+   as compared to the code on the right?
+
+procedural decomposition
+
+b) Why is this principle important?
+
+It makes the code much easier to read and removes duplicate code.
+
+//---------------------------------------------------------------------
+// GR 1: Case Study 2          Limit your time to approximately 4 minutes
+
+// Grade: _____ / 5
+
+a) What major principle of code implementation does the code on the right 
+   violate - as compared to the code on the left?
+
+The code on the right does not properly scope the "j" variable, while the left 
+creates the variable in the context of which it will be used.
+
+b) Why is this principle important?
+ 
+This is important because it creates cleaner and easier to read code while also
+protecting variables from being used in different locations and possibly starting in 
+unknown states.

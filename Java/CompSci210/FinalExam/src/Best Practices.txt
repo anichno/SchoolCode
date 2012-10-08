@@ -1,0 +1,20 @@
+/**
+ * Final Exam: Programming Principles     Limit your time to approximately 9 minutes
+ *
+ * Grade: _____ / 10
+ */
+ 
+Question 1:
+(5 pts) What are the two major principles you learned this semester for producing 
+good, readable, and maintainable code?
+
+Procedural decomposition and proper scoping of variables.
+
+Question 2:
+(5 pts) When should you use inheritance to create related objects, and why?
+
+When you wish to extend the feature set or modify existing features without needing a 
+copy of the original code or having to rewrite the entirety of the class you are extending.
+
+
+

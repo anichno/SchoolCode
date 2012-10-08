@@ -1,0 +1,392 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="SettingsFrame">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 400]"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="SettingsFrame" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 400]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="2" attributes="0">
+                          <Component id="btnStartGame" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="FirstPlayerFrame" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="BoardSizeFrame" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="GameModeFrame" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="GameModeFrame" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="BoardSizeFrame" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  <Component id="FirstPlayerFrame" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnStartGame" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="GameModeFrame">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="GameModeFrame" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblGameMode" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rbtnComp" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="30" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rbtnLocal" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtnRemote" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="58" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblGameMode" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      <Component id="rbtnComp" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="rbtnLocal" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="rbtnRemote" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="28" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblGameMode">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblGameMode.text"/>
+                <Property name="name" type="java.lang.String" value="lblGameMode" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtnLocal">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="pex4guibuilder.PEX4GuiBuilderView" id="showValidFields" methodName="showValidFields"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="btngrpGameMode"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="rbtnLocal.text"/>
+                <Property name="actionCommand" type="java.lang.String" resourceKey="rbtnLocal.actionCommand"/>
+                <Property name="name" type="java.lang.String" value="rbtnLocal" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtnRemote">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="pex4guibuilder.PEX4GuiBuilderView" id="hideInvalidFields" methodName="hideInvalidFields"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="btngrpGameMode"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="rbtnRemote.text"/>
+                <Property name="name" type="java.lang.String" value="rbtnRemote" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtnComp">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="pex4guibuilder.PEX4GuiBuilderView" id="showValidFields" methodName="showValidFields"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="btngrpGameMode"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="rbtnComp.text"/>
+                <Property name="name" type="java.lang.String" value="rbtnComp" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="BoardSizeFrame">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="BoardSizeFrame" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblBoardSize" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblColumns" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblRows" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtRows" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtColumns" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="lblBoardSize" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblColumns" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtColumns" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblRows" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRows" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblBoardSize">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblBoardSize.text"/>
+                <Property name="name" type="java.lang.String" value="lblBoardSize" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtColumns">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="txtColumns.text"/>
+                <Property name="name" type="java.lang.String" value="txtColumns" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[20, 20]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtRows">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="txtRows.text"/>
+                <Property name="name" type="java.lang.String" value="txtRows" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[20, 20]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblColumns">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblColumns.text"/>
+                <Property name="name" type="java.lang.String" value="lblColumns" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblRows">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblRows.text"/>
+                <Property name="name" type="java.lang.String" value="lblRows" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="FirstPlayerFrame">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="FirstPlayerFrame" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblFirstPlayer" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbtnRed" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbtnYellow" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblFirstPlayer" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="rbtnRed" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="rbtnYellow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblFirstPlayer">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblFirstPlayer.text"/>
+                <Property name="name" type="java.lang.String" value="lblFirstPlayer" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtnRed">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="btngrpFirstPlayer"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="rbtnRed.text"/>
+                <Property name="name" type="java.lang.String" value="rbtnRed" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtnYellow">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="btngrpFirstPlayer"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="rbtnYellow.text"/>
+                <Property name="name" type="java.lang.String" value="rbtnYellow" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnStartGame">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="pex4guibuilder.PEX4GuiBuilderView" id="startGame" methodName="startGame"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="btnStartGame.text"/>
+            <Property name="name" type="java.lang.String" value="btnStartGame" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStartGameActionPerformed"/>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="btnStartGamePropertyChange"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="btngrpGameMode">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="btngrpFirstPlayer">
+    </Component>
+    <Container class="javax.swing.JPanel" name="GameFrame">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="GameFrame" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 600]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
+                  <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+                  <Component id="gameCanvas" min="-2" pref="399" max="-2" attributes="0"/>
+                  <EmptySpace pref="87" max="32767" attributes="0"/>
+=======
+                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="gamePanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="84" max="32767" attributes="0"/>
+>>>>>>> 37fc855810b14540bc02c11d30c380306f8abc72
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="gameCanvas" min="-2" pref="343" max="-2" attributes="0"/>
+                  <EmptySpace pref="217" max="32767" attributes="0"/>
+=======
+                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                  <Component id="gamePanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="123" max="32767" attributes="0"/>
+>>>>>>> 37fc855810b14540bc02c11d30c380306f8abc72
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="gamePanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="gamePanel" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="446" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="395" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="SettingsFrame"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-98,0,0,2,9"/>
+  </AuxValues>
+</Form>
